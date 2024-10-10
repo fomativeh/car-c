@@ -50,7 +50,7 @@ const HeroSection = () => {
                 Explore our services
               </p>
               <Link
-                href={"/Services"}
+                href={"/Products"}
                 className="px-[25px] py-[10px] rounded-[12px] bg-theme_red pointer-events-auto"
               >
                 {" Let's go"}

@@ -75,7 +75,7 @@ export default function Home() {
             />
             <section className="pointer-events-none absolute w-full h-full flex flex-col justify-center items-center text-white font-[Kanit] bg-[#00000064]">
               <Link
-                href={"/services"}
+                href={"/Products"}
                 className="px-[25px] py-[10px] rounded-[7px] bg-theme_red pointer-events-auto"
               >
                 Browse our works
