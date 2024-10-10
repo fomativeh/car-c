@@ -17,9 +17,9 @@ const ProductSection = ({
   const imagesCount = [1, 2, 3, 4];
 
   return (
-    <section className="w-[90%] max-sm:w-[97%] my-[20px] flex flex-col justify-start items-start font-[Kanit] p-[30px]">
+    <section className="w-[95%] max-sm:w-[97%] my-[20px] flex flex-col justify-start items-start font-[Kanit] ">
       <span
-        className="text-theme_red text-[40px] font-semibold"
+        className="text-theme_red text-[40px] font-semibold max-sm:text-center max-sm:w-full"
       >
         {title}
       </span>
@@ -49,7 +49,7 @@ const ProductSection = ({
             return (
               <figure
                 key={i}
-                className="relative max-sm:w-[30vw] max-sm:h-[30vw] max-lg:w-[35vw] max-lg:h-[35vw] lg:w-[35%] h-[150px] m-[10px] overflow-hidden rounded-[7px]"
+                className="relative max-sm:w-[32vw] max-sm:h-[30vw] max-lg:w-[35vw] max-lg:h-[35vw] lg:w-[35%] h-[150px] m-[10px] max-sm:m-[5px] overflow-hidden rounded-[7px]"
               >
                 <Image
                   src={`/assets/images/${imageCategory}-${eachImage}.jpg`}

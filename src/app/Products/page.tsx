@@ -13,7 +13,7 @@ const Products = () => {
   useEffect(() => {
     AOS.init({ duration: 1150, offset: 900 });
   }, []);
-  
+
   return (
     <main className="min-h-screen w-full bg-[#000000] relative flex flex-col justify-start items-center overflow-x-hidden">
       <Navbar page="Products" />
