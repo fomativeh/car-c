@@ -38,7 +38,7 @@ const HeroSection = () => {
                 Explore our services
               </p>
               <Link
-                href={"/services"}
+                href={"/Services"}
                 className="px-[25px] py-[10px] rounded-[12px] bg-theme_red pointer-events-auto"
               >
                {" Let's go"}
@@ -59,7 +59,7 @@ const HeroSection = () => {
                 View our latest projects
               </p>
               <Link
-                href={"/cases"}
+                href={"/Cases"}
                 className="px-[25px] py-[10px] rounded-[12px] bg-theme_red pointer-events-auto"
               >
                 {"Let's go"}
