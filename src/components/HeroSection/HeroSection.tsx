@@ -12,21 +12,33 @@ const HeroSection = () => {
   return (
     <section className="hero w-full mt-[120px] relative overflow-x-hidden">
       {/* Overlay */}
-      <div className="w-full h-full absolute top-0 left-0 bg-[#00000047] z-[-1]"></div>
+      <div className="w-full h-full absolute top-0 left-0 bg-[#00000033] z-[-1]"></div>
 
       {/* Hero content */}
-      <section className="w-full h-full max-xl:flex-col flex justify-between max-xl:justify-center items-center z-[1] bg-[#00000096]">
+      <section className="w-full h-full max-xl:flex-col flex justify-between max-xl:justify-center items-center z-[1] bg-[#0000004e]">
         <section className="w-[35%] max-xl:w-full  max-xl:items-center h-full flex flex-col justify-center items-end font-[Kanit] font-bold">
-          <p className="text-white text-[45px] max-xl:text-[10vw] text-center max-xl:max-w-[90%]" data-aos="slide-right" data-aos-duration="800">
+          <p
+            className="text-white text-[45px] max-xl:text-[10vw] text-center max-xl:max-w-[90%]"
+            data-aos="slide-right"
+            data-aos-duration="800"
+          >
             Transform your car
           </p>
-          <i className="text-theme_red text-[18px] max-xl:mt-[20px]" data-aos="slide-left" data-aos-duration="1200">
+          <i
+            className="text-theme_red text-[18px] max-xl:mt-[20px]"
+            data-aos="slide-left"
+            data-aos-duration="1200"
+          >
             Transform your <span className="text-white">ride.</span>
           </i>
         </section>
 
         <section className="w-[50%] h-full flex flex-col max-xl:flex-row max-xl:w-full justify-center items-center">
-          <figure data-aos="slide-up" data-aos-duration="1200" className="image-scale w-[400px] h-[200px] max-xl:w-[45vw] max-xl:mr-[2vw] relative mb-[30px] overflow-hidden transition-all rounded-[20px]">
+          <figure
+            data-aos="slide-up"
+            data-aos-duration="1200"
+            className="image-scale w-[400px] h-[200px] max-xl:w-[45vw] max-xl:mr-[2vw] relative mb-[30px] overflow-hidden transition-all rounded-[20px]"
+          >
             <Image
               src={"/assets/images/car-1.jpeg"}
               fill
@@ -41,12 +53,16 @@ const HeroSection = () => {
                 href={"/Services"}
                 className="px-[25px] py-[10px] rounded-[12px] bg-theme_red pointer-events-auto"
               >
-               {" Let's go"}
+                {" Let's go"}
               </Link>
             </section>
           </figure>
 
-          <figure data-aos="slide-left" data-aos-duration="900" className="image-scale w-[400px] h-[200px] max-xl:w-[45vw] relative mb-[30px] overflow-hidden transition-all rounded-[20px]">
+          <figure
+            data-aos="slide-left"
+            data-aos-duration="900"
+            className="image-scale w-[400px] h-[200px] max-xl:w-[45vw] relative mb-[30px] overflow-hidden transition-all rounded-[20px]"
+          >
             <Image
               src={"/assets/images/car-4.jpg"}
               fill
