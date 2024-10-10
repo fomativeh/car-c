@@ -15,7 +15,8 @@ const ProductSection = ({
   title,
   imageCategory,
 }: Props) => {
-  let imagesCount = [1, 2, 3, 4];
+
+  const imagesCount = [1, 2, 3, 4];
 
   useEffect(() => {
     AOS.init({ duration: 1150, offset: 900 });

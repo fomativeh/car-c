@@ -2,9 +2,7 @@
 import CasesSection from "@/components/CasesSection/CasesSection";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Nabvar/Navbar";
-import ProductSection from "@/components/ProductSection/ProductSection";
 import { cases, CaseType } from "@/utils/casesDetails";
-import { productsData } from "@/utils/productsDetails";
 import React, { useEffect, useState } from "react";
 
 const Cases = () => {

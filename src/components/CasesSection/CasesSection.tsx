@@ -9,8 +9,6 @@ const CasesSection = ({ category, imageCategory, works }: CaseType) => {
         return Math.floor(Math.random() * 4) + 1;
       }
       
-    let imagesCount = [1, 2, 3, 4];
-
   useEffect(() => {
     AOS.init({ duration: 450, offset:50 });
   }, []);

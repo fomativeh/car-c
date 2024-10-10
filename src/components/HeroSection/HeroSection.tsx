@@ -41,7 +41,7 @@ const HeroSection = () => {
                 href={"/services"}
                 className="px-[25px] py-[10px] rounded-[12px] bg-theme_red pointer-events-auto"
               >
-                Let's go
+               {" Let's go"}
               </Link>
             </section>
           </figure>
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 href={"/cases"}
                 className="px-[25px] py-[10px] rounded-[12px] bg-theme_red pointer-events-auto"
               >
-                Let's go
+                {"Let's go"}
               </Link>
             </section>
           </figure>
