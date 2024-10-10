@@ -20,26 +20,24 @@ const ProductSection = ({
     <section className="w-[90%] max-sm:w-[97%] my-[20px] flex flex-col justify-start items-start font-[Kanit] p-[30px]">
       <span
         className="text-theme_red text-[40px] font-semibold"
-        data-aos="slide-up"
       >
         {title}
       </span>
       <section className="max-lg:flex-col w-full mt-[25px] flex justify-start items-start max-sm:items-center max-xl:justify-between bg-theme_red text-white p-[30px] ">
         <section className="w-[40%] max-sm:w-full min-w-[300px]">
-          <p className="text font-medium" data-aos="slide-left">
+          <p className="text font-medium">
             {description}
           </p>
 
           <p
             className="text-[20px] font-bold mb-[10px] mt-[30px]"
-            data-aos="slide-right"
           >
             We offer
           </p>
           <ol className="list-disc ml-[30px]">
             {subServices?.map((eachSubService, i) => {
               return (
-                <li data-aos="slide-up" key={i}>
+                <li key={i}>
                   {eachSubService}
                 </li>
               );
