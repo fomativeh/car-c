@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
-import AOS from "aos";
 
 type Props = {
   title?: string;
@@ -17,10 +16,6 @@ const ProductSection = ({
 }: Props) => {
 
   const imagesCount = [1, 2, 3, 4];
-
-  useEffect(() => {
-    AOS.init({ duration: 1150, offset: 900 });
-  }, []);
 
   return (
     <section className="w-[90%] max-sm:w-[97%] my-[20px] flex flex-col justify-start items-start font-[Kanit] p-[30px]">
