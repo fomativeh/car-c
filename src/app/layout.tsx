@@ -22,7 +22,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="w-100wv flex justify-center max-w-[2000px]">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
